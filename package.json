@@ -1,0 +1,26 @@
+{
+  "name": "Products_Cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinay2603/Products_Cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinay2603/Products_Cache/issues"
+  },
+  "homepage": "https://github.com/Vinay2603/Products_Cache#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "redis": "^4.0.0"
+  }
+}
